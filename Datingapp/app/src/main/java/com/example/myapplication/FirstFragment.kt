@@ -39,7 +39,7 @@ class FirstFragment : Fragment() {
         val gestureDetector =
             GestureDetector(requireContext(), object : GestureDetector.SimpleOnGestureListener() {
                 private val SWIPE_THRESHOLD = 100
-                private val SWIPE_VELOCITY_THRESHOLD = 100
+                private val SWIPE_VELOCITY_THRESHOLD = 40
 
                 override fun onDown(e: MotionEvent): Boolean {
                     return true // NOTWENDIG für Fling-Erkennung
