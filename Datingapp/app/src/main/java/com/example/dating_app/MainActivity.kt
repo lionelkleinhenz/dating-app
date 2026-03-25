@@ -3,6 +3,7 @@ package com.example.dating_app
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import org.json.JSONObject
+import com.example.dating_app.R
 
 class MainActivity : AppCompatActivity() {
 
