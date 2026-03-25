@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">DatingApp</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -43,11 +43,4 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
-    <string name="compatibility_score">%1$d%% Match</string>
-    <string name="name_age">%1$s, %2$d</string>
-    <string name="location_distance">%1$s  ·  %2$d km away</string>
-    <string name="last_active">Active %1$s</string>
-    <string name="passed">Passed</string>
-    <string name="liked">❤ Liked!</string>
-    <string name="super_liked">⭐ Super Liked!</string>
 </resources>
