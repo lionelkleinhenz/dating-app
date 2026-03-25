@@ -1,9 +1,11 @@
-package com.example.dating_app
+package com.example.myapplication
 
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.os.Bundle
+import android.view.GestureDetector
 import android.view.LayoutInflater
+import android.view.MotionEvent
 import android.view.View
 import android.view.ViewGroup
 import android.view.animation.DecelerateInterpolator
@@ -14,22 +16,19 @@ import android.widget.Toast
 import androidx.cardview.widget.CardView
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
+import com.google.android.flexbox.FlexboxLayout
 import com.google.android.material.chip.Chip
 import com.google.android.material.chip.ChipGroup
-import com.google.android.flexbox.FlexboxLayout
+import kotlin.math.abs
 
 class ProfileFragment : Fragment() {
 
     private lateinit var profile: DatingProfile
 
     companion object {
-        private const val ARG_PROFILE = "profile_json"
-
         fun newInstance(profile: DatingProfile): ProfileFragment {
-            // We'll pass data via the activity; keep it simple
-            val fragment = ProfileFragment()
-            fragment.profile = profile
-            return fragment
+            return ProfileFragment().also { it.profile = profile }
         }
     }
 
@@ -43,9 +42,51 @@ class ProfileFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         bindProfile(view)
         animateEntrance(view)
+        setupSwipeNavigation(view)
+    }
+
+    private fun setupSwipeNavigation(view: View) {
+        val gestureDetector = GestureDetector(
+            requireContext(),
+            object : GestureDetector.SimpleOnGestureListener() {
+                private val SWIPE_THRESHOLD = 100
+                private val SWIPE_VELOCITY_THRESHOLD = 100
+
+                override fun onDown(e: MotionEvent): Boolean = true
+
+                override fun onFling(
+                    e1: MotionEvent?,
+                    e2: MotionEvent,
+                    velocityX: Float,
+                    velocityY: Float
+                ): Boolean {
+                    val startEvent = e1 ?: return false
+                    val diffX = e2.x - startEvent.x
+                    val diffY = e2.y - startEvent.y
+
+                    if (abs(diffX) > abs(diffY) &&
+                        abs(diffX) > SWIPE_THRESHOLD &&
+                        abs(velocityX) > SWIPE_VELOCITY_THRESHOLD
+                    ) {
+                        if (diffX < 0) {
+                            // Swipe left → next screen
+                            findNavController().navigate(R.id.action_ProfileFragment_to_SecondFragment)
+                        } else {
+                            // Swipe right → back
+                            findNavController().popBackStack()
+                        }
+                        return true
+                    }
+                    return false
+                }
+            })
+
+        view.setOnTouchListener { _, event -> gestureDetector.onTouchEvent(event) }
     }
 
     private fun bindProfile(view: View) {
+        val ctx = requireContext()
+
         // ── Hero image ────────────────────────────────────────────────────────
         val heroImage = view.findViewById<ImageView>(R.id.iv_hero)
         loadDrawableByName(profile.img)?.let { heroImage.setImageBitmap(it) }
@@ -53,22 +94,22 @@ class ProfileFragment : Fragment() {
 
         // ── Compatibility badge ───────────────────────────────────────────────
         view.findViewById<TextView>(R.id.tv_compatibility).text =
-            "${profile.compatibilityScore}% Match"
+            getString(R.string.compatibility_score, profile.compatibilityScore)
 
         // ── Name / age / verified ────────────────────────────────────────────
         view.findViewById<TextView>(R.id.tv_name_age).text =
-            "${profile.name}, ${profile.age}"
+            getString(R.string.name_age, profile.name, profile.age)
         view.findViewById<View>(R.id.iv_verified).visibility =
             if (profile.verified) View.VISIBLE else View.GONE
 
         // ── Occupation & location ────────────────────────────────────────────
         view.findViewById<TextView>(R.id.tv_occupation).text = profile.occupation
         view.findViewById<TextView>(R.id.tv_location).text =
-            "${profile.location}  ·  ${profile.distanceKm} km away"
+            getString(R.string.location_distance, profile.location, profile.distanceKm)
 
         // ── Last active ──────────────────────────────────────────────────────
         view.findViewById<TextView>(R.id.tv_last_active).text =
-            "Active ${profile.lastActive.lowercase()}"
+            getString(R.string.last_active, profile.lastActive.lowercase())
 
         // ── Bio ──────────────────────────────────────────────────────────────
         view.findViewById<TextView>(R.id.tv_bio).text = profile.bio
@@ -83,9 +124,7 @@ class ProfileFragment : Fragment() {
             "💞" to profile.relationshipGoal,
             "🐾" to if (profile.hasPets) profile.pets.joinToString() else "No pets"
         )
-        facts.forEach { (icon, label) ->
-            addFactCard(factsContainer, icon, label)
-        }
+        facts.forEach { (icon, label) -> addFactCard(factsContainer, icon, label) }
 
         // ── Interests chips ──────────────────────────────────────────────────
         val interestsGroup = view.findViewById<ChipGroup>(R.id.chip_group_interests)
@@ -120,13 +159,13 @@ class ProfileFragment : Fragment() {
         // ── Gallery row ──────────────────────────────────────────────────────
         val galleryContainer = view.findViewById<LinearLayout>(R.id.ll_gallery)
         profile.gallery.forEach { name ->
-            val iv = ImageView(requireContext()).apply {
-                layoutParams = LinearLayout.LayoutParams(
-                    dpToPx(110), dpToPx(140)
-                ).also { it.marginEnd = dpToPx(10) }
+            val iv = ImageView(ctx).apply {
+                layoutParams = LinearLayout.LayoutParams(dpToPx(110), dpToPx(140)).also {
+                    it.marginEnd = dpToPx(10)
+                }
                 scaleType = ImageView.ScaleType.CENTER_CROP
                 setBackgroundResource(R.drawable.bg_gallery_placeholder)
-                loadDrawableByName(name)?.let { setImageBitmap(it) }
+                loadDrawableByName(name)?.let { bmp -> setImageBitmap(bmp) }
                     ?: setImageResource(R.drawable.placeholder_gallery)
             }
             galleryContainer.addView(iv)
@@ -134,20 +173,20 @@ class ProfileFragment : Fragment() {
 
         // ── Action buttons ────────────────────────────────────────────────────
         view.findViewById<View>(R.id.btn_pass).setOnClickListener {
-            Toast.makeText(context, "Passed", Toast.LENGTH_SHORT).show()
+            Toast.makeText(ctx, R.string.passed, Toast.LENGTH_SHORT).show()
         }
         view.findViewById<View>(R.id.btn_like).setOnClickListener {
-            Toast.makeText(context, "❤ Liked!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(ctx, R.string.liked, Toast.LENGTH_SHORT).show()
         }
         view.findViewById<View>(R.id.btn_super_like).setOnClickListener {
-            Toast.makeText(context, "⭐ Super Liked!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(ctx, R.string.super_liked, Toast.LENGTH_SHORT).show()
         }
     }
 
     // ── Helpers ───────────────────────────────────────────────────────────────
 
     private fun addFactCard(container: FlexboxLayout, icon: String, label: String) {
-        val ctx = container.context
+        val ctx = requireContext()
         val card = CardView(ctx).apply {
             layoutParams = FlexboxLayout.LayoutParams(
                 ViewGroup.LayoutParams.WRAP_CONTENT,
@@ -214,21 +253,23 @@ class ProfileFragment : Fragment() {
         return try {
             val resId = resources.getIdentifier(name, "drawable", requireContext().packageName)
             if (resId != 0) BitmapFactory.decodeResource(resources, resId) else null
-        } catch (e: Exception) { null }
+        } catch (_: Exception) {
+            null
+        }
     }
 
     private fun dpToPx(dp: Int): Int =
         (dp * resources.displayMetrics.density).toInt()
 
     private fun animateEntrance(view: View) {
-        val targets = listOf<View>(
-            view.findViewById(R.id.card_hero),
-            view.findViewById(R.id.card_bio),
-            view.findViewById(R.id.card_details),
-            view.findViewById(R.id.card_interests),
-            view.findViewById(R.id.card_lifestyle),
-            view.findViewById(R.id.card_gallery),
-            view.findViewById(R.id.layout_actions)
+        val targets = listOf(
+            view.findViewById<View>(R.id.card_hero),
+            view.findViewById<View>(R.id.card_bio),
+            view.findViewById<View>(R.id.card_details),
+            view.findViewById<View>(R.id.card_interests),
+            view.findViewById<View>(R.id.card_lifestyle),
+            view.findViewById<View>(R.id.card_gallery),
+            view.findViewById<View>(R.id.layout_actions)
         )
         targets.forEachIndexed { i, v ->
             v.alpha = 0f
