@@ -131,8 +131,13 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
     private fun bindProfile(view: View) {
         // ── Hero image ────────────────────────────────────────────────────────
         val heroImage = view.findViewById<ImageView>(R.id.iv_hero)
-        loadDrawableByName(profile.img)?.let { heroImage.setImageBitmap(it) }
-            ?: heroImage.setImageResource(R.drawable.pfp_1)
+        val resId = resources.getIdentifier(profile.img, "drawable", requireContext().packageName)
+
+        if (resId != 0) {
+            heroImage.setImageResource(resId)
+        } else {
+            heroImage.setImageResource(R.drawable.placeholder_profile)
+        }
 
         // ── Compatibility badge ───────────────────────────────────────────────
         view.findViewById<TextView>(R.id.tv_compatibility).text =

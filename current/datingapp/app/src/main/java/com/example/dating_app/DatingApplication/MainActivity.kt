@@ -21,7 +21,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun loadProfileFromJson(): DatingProfile {
-        val inputStream = resources.openRawResource(R.raw.profile_1)
+        val profiles = (1..500).map { index ->
+            resources.getIdentifier("profile_$index", "raw", packageName)
+        }
+        val inputStream = resources.openRawResource(profiles[0]) // that of course becomes i but only with the python integration
+        
         val jsonString = inputStream.bufferedReader().use { it.readText() }
         Log.d("PROFILE", "JSON loaded: $jsonString")
         val profile = DatingProfile.fromJson(JSONObject(jsonString))
