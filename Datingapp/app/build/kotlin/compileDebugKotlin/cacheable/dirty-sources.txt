@@ -1,0 +1,10 @@
+C:\Users\Admin\Documents\GitHub\dating-app\Datingapp\app\src\main\java\com\example\dating_app\ui\theme\Color.kt
+C:\Users\Admin\Documents\GitHub\dating-app\Datingapp\app\src\main\java\com\example\dating_app\ProfileFragment.kt
+C:\Users\Admin\Documents\GitHub\dating-app\Datingapp\app\src\main\java\com\example\dating_app\ui\theme\Type.kt
+C:\Users\Admin\Documents\GitHub\dating-app\Datingapp\app\src\main\java\com\example\dating_app\MainActivity.kt
+C:\Users\Admin\Documents\GitHub\dating-app\Datingapp\app\src\main\java\com\example\myapplication\FirstFragment.kt
+C:\Users\Admin\Documents\GitHub\dating-app\Datingapp\app\src\main\java\com\example\dating_app\ui\theme\Theme.kt
+C:\Users\Admin\Documents\GitHub\dating-app\Datingapp\app\src\main\java\com\example\dating_app\DatingProfile.kt
+C:\Users\Admin\Documents\GitHub\dating-app\Datingapp\app\src\main\java\com\example\myapplication\SecondFragment.kt
+C:\Users\Admin\Documents\GitHub\dating-app\Datingapp\app\src\main\java\com\example\myapplication\SharedViewModel.kt
+C:\Users\Admin\Documents\GitHub\dating-app\Datingapp\app\src\main\java\com\example\myapplication\MainActivity.kt

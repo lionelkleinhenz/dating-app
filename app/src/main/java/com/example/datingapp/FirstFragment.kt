@@ -28,8 +28,17 @@ class FirstFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         view.setBackgroundColor(Color.WHITE)
-        binding.buttonFirst.setOnClickListener {
+        /*binding.buttonFirst.setOnClickListener {
             findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
+        }*/
+        binding.button3.setOnClickListener {
+            flashScreen(isGreen = false)
+            swipeLeft()
+        }
+
+        binding.button2.setOnClickListener {
+            flashScreen(isGreen = true)
+            swipeRight()
         }
 
         val gestureDetector = GestureDetector(requireContext(), object : GestureDetector.SimpleOnGestureListener() {
@@ -52,8 +61,10 @@ class FirstFragment : Fragment() {
                     if (Math.abs(diffX) > SWIPE_THRESHOLD &&
                         Math.abs(velocityX) > SWIPE_VELOCITY_THRESHOLD) {
                         if (diffX > 0) {
+                            animateSwipe(toRight = true)
                             swipeRight()
                         } else {
+                            animateSwipe(toRight = false)
                             swipeLeft()
                         }
                         return true
@@ -71,11 +82,38 @@ class FirstFragment : Fragment() {
     }
 
     private fun swipeLeft() {
-        animateSwipe(toRight = false)
+        //Lionels Code
+
+
     }
 
     private fun swipeRight() {
-        animateSwipe(toRight = true)
+        //Lionels Code
+    }
+
+    private fun flashScreen(isGreen: Boolean) {
+        val flashColor = if (isGreen) Color.parseColor("#71c174") else Color.parseColor("#e44e44")
+
+        val rootView = requireView()
+        rootView.setBackgroundColor(flashColor)
+
+        rootView.animate()
+            .setStartDelay(0)
+            .setDuration(0)
+            .withEndAction {
+                rootView.postDelayed({
+                    rootView.animate()
+                        .setDuration(250)
+                        .withStartAction {
+                            rootView.setBackgroundColor(flashColor)
+                        }
+                        .withEndAction {
+                            rootView.setBackgroundColor(Color.WHITE)
+                        }
+                        .start()
+                }, 150)
+            }
+            .start()
     }
 
     private fun animateSwipe(toRight: Boolean) {
@@ -88,7 +126,7 @@ class FirstFragment : Fragment() {
 
         requireView().animate()
             .translationX(direction * screenWidth)
-            .setDuration(250)
+            .setDuration(400)
             .withEndAction {
                 /*if (isAdded) {
                     findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
@@ -99,6 +137,7 @@ class FirstFragment : Fragment() {
             }
             .start()
     }
+
 
     override fun onDestroyView() {
         super.onDestroyView()

@@ -33,9 +33,9 @@ private var _binding: FragmentSecondBinding? = null
 
         (view.parent as? View)?.setBackgroundColor(android.graphics.Color.WHITE)
         //findNavController().navigateUp()
-        binding.buttonSecond.setOnClickListener {
+        /*binding.buttonSecond.setOnClickListener {
             findNavController().navigate(R.id.action_SecondFragment_to_FirstFragment)
-        }
+        }*/
     }
 override fun onDestroyView() {
         super.onDestroyView()
