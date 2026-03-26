@@ -1,9 +1,11 @@
 <resources>
     <string name="app_name">DatingApp</string>
     <string name="action_settings">Extra Informationen</string>
+    <string name="action_settingsb">Ideales Profil</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">Dating App</string>
-    <string name="second_fragment_label">Extra Informationen</string>
+    <string name="second_fragment_label">Erklärung Algorithmus</string>
+    <string name="second_second_fragment_label">Ideales Profil</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
@@ -11,7 +13,7 @@
         Hier sind dann die Profile zu sehen
     </string>
     <string name="lorem_ipsumb">
-        Ka, vielleicht wollen wir hier noch extra Informationen reinmachen, also lass ich diese
-        Seite noch hier.
-    </string>
+        Hier der text zur erklärung des algorithmus.
+    </string><string name="lorem_ipsumc">
+        text für das perfekte profil</string>
 </resources>
