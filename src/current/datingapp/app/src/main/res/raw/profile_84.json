@@ -1,0 +1,23 @@
+{
+  "id": 84,
+  "image": "furrypfp84",
+  "name": "BlazeTail2133",
+  "age": 33,
+  "gender": "female",
+  "pronouns": "she/her",
+  "location": "Tailtown",
+  "species": "Rabbit",
+  "fur_color": "golden",
+  "tail_type": "feathered",
+  "activities": [
+    "Cooking",
+    "Hiking",
+    "Music"
+  ],
+  "personality_traits": [
+    "shy",
+    "adventurous",
+    "chill"
+  ],
+  "bio": "Hi! I'm BlazeTail2133, a golden Rabbit from Tailtown. I enjoy Cooking, Hiking, Music. Friends describe me as shy, adventurous, chill. My feathered tail is always wagging when I'm having fun!"
+}

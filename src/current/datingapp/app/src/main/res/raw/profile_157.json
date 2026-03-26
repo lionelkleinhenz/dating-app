@@ -1,0 +1,23 @@
+{
+  "id": 157,
+  "image": "furrypfp157",
+  "name": "EmberFang1992",
+  "age": 34,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Star Hollow",
+  "species": "Dog",
+  "fur_color": "black",
+  "tail_type": "feathered",
+  "activities": [
+    "Reading",
+    "Dancing",
+    "Streaming"
+  ],
+  "personality_traits": [
+    "chill",
+    "curious",
+    "adventurous"
+  ],
+  "bio": "Hi! I'm EmberFang1992, a black Dog from Star Hollow. I enjoy Reading, Dancing, Streaming. Friends describe me as chill, curious, adventurous. My feathered tail is always wagging when I'm having fun!"
+}

@@ -1,0 +1,23 @@
+{
+  "id": 21,
+  "image": "furrypfp21",
+  "name": "StarPaw561",
+  "age": 34,
+  "gender": "female",
+  "pronouns": "she/her",
+  "location": "Furfield",
+  "species": "Raccoon",
+  "fur_color": "white",
+  "tail_type": "curly",
+  "activities": [
+    "Gaming",
+    "Music",
+    "Reading"
+  ],
+  "personality_traits": [
+    "shy",
+    "curious",
+    "adventurous"
+  ],
+  "bio": "Hi! I'm StarPaw561, a white Raccoon from Furfield. I enjoy Gaming, Music, Reading. Friends describe me as shy, curious, adventurous. My curly tail is always wagging when I'm having fun!"
+}

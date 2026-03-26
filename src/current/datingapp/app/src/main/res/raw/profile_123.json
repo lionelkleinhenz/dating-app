@@ -1,0 +1,23 @@
+{
+  "id": 123,
+  "image": "furrypfp123",
+  "name": "EmberFang1738",
+  "age": 31,
+  "gender": "female",
+  "pronouns": "she/her",
+  "location": "Moonridge",
+  "species": "Cat",
+  "fur_color": "white",
+  "tail_type": "feathered",
+  "activities": [
+    "Streaming",
+    "Drawing",
+    "Cosplay"
+  ],
+  "personality_traits": [
+    "shy",
+    "energetic",
+    "adventurous"
+  ],
+  "bio": "Hi! I'm EmberFang1738, a white Cat from Moonridge. I enjoy Streaming, Drawing, Cosplay. Friends describe me as shy, energetic, adventurous. My feathered tail is always wagging when I'm having fun!"
+}

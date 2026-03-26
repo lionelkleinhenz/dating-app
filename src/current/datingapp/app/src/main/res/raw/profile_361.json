@@ -1,0 +1,23 @@
+{
+  "id": 361,
+  "image": "furrypfp361",
+  "name": "FluffyFox803",
+  "age": 27,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Tailtown",
+  "species": "Fox",
+  "fur_color": "black",
+  "tail_type": "curly",
+  "activities": [
+    "Drawing",
+    "Hiking",
+    "Music"
+  ],
+  "personality_traits": [
+    "curious",
+    "adventurous",
+    "shy"
+  ],
+  "bio": "Hi! I'm FluffyFox803, a black Fox from Tailtown. I enjoy Drawing, Hiking, Music. Friends describe me as curious, adventurous, shy. My curly tail is always wagging when I'm having fun!"
+}

@@ -1,0 +1,23 @@
+{
+  "id": 210,
+  "image": "furrypfp210",
+  "name": "EmberFang5087",
+  "age": 29,
+  "gender": "female",
+  "pronouns": "she/her",
+  "location": "Furryville",
+  "species": "Rabbit",
+  "fur_color": "white",
+  "tail_type": "curly",
+  "activities": [
+    "Streaming",
+    "Cosplay",
+    "Cooking"
+  ],
+  "personality_traits": [
+    "shy",
+    "friendly",
+    "creative"
+  ],
+  "bio": "Hi! I'm EmberFang5087, a white Rabbit from Furryville. I enjoy Streaming, Cosplay, Cooking. Friends describe me as shy, friendly, creative. My curly tail is always wagging when I'm having fun!"
+}

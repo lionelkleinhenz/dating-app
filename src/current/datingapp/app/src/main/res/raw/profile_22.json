@@ -1,0 +1,23 @@
+{
+  "id": 22,
+  "image": "furrypfp22",
+  "name": "LunaTail3165",
+  "age": 20,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Furryville",
+  "species": "Raccoon",
+  "fur_color": "white",
+  "tail_type": "curly",
+  "activities": [
+    "Music",
+    "Dancing",
+    "Drawing"
+  ],
+  "personality_traits": [
+    "chill",
+    "friendly",
+    "shy"
+  ],
+  "bio": "Hi! I'm LunaTail3165, a white Raccoon from Furryville. I enjoy Music, Dancing, Drawing. Friends describe me as chill, friendly, shy. My curly tail is always wagging when I'm having fun!"
+}

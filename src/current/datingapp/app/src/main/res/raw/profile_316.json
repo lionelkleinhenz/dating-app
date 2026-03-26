@@ -1,0 +1,23 @@
+{
+  "id": 316,
+  "image": "furrypfp316",
+  "name": "ShadowWolf9001",
+  "age": 23,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Howl City",
+  "species": "Cat",
+  "fur_color": "white",
+  "tail_type": "bushy",
+  "activities": [
+    "Cosplay",
+    "Hiking",
+    "Streaming"
+  ],
+  "personality_traits": [
+    "chill",
+    "curious",
+    "shy"
+  ],
+  "bio": "Hi! I'm ShadowWolf9001, a white Cat from Howl City. I enjoy Cosplay, Hiking, Streaming. Friends describe me as chill, curious, shy. My bushy tail is always wagging when I'm having fun!"
+}

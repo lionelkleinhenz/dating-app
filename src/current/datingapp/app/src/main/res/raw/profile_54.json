@@ -1,0 +1,23 @@
+{
+  "id": 54,
+  "image": "furrypfp54",
+  "name": "EchoFur716",
+  "age": 22,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Furfield",
+  "species": "Cat",
+  "fur_color": "brown",
+  "tail_type": "bushy",
+  "activities": [
+    "Streaming",
+    "Music",
+    "Cosplay"
+  ],
+  "personality_traits": [
+    "friendly",
+    "adventurous",
+    "shy"
+  ],
+  "bio": "Hi! I'm EchoFur716, a brown Cat from Furfield. I enjoy Streaming, Music, Cosplay. Friends describe me as friendly, adventurous, shy. My bushy tail is always wagging when I'm having fun!"
+}

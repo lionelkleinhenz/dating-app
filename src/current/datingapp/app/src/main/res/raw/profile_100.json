@@ -1,0 +1,23 @@
+{
+  "id": 100,
+  "image": "furrypfp100",
+  "name": "StarPaw8917",
+  "age": 23,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Furryville",
+  "species": "Panther",
+  "fur_color": "blue",
+  "tail_type": "feathered",
+  "activities": [
+    "Dancing",
+    "Cosplay",
+    "Reading"
+  ],
+  "personality_traits": [
+    "shy",
+    "energetic",
+    "adventurous"
+  ],
+  "bio": "Hi! I'm StarPaw8917, a blue Panther from Furryville. I enjoy Dancing, Cosplay, Reading. Friends describe me as shy, energetic, adventurous. My feathered tail is always wagging when I'm having fun!"
+}

@@ -1,0 +1,23 @@
+{
+  "id": 50,
+  "image": "furrypfp50",
+  "name": "AmberPaw7926",
+  "age": 24,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Furryville",
+  "species": "Tiger",
+  "fur_color": "striped",
+  "tail_type": "bushy",
+  "activities": [
+    "Dancing",
+    "Cooking",
+    "Drawing"
+  ],
+  "personality_traits": [
+    "friendly",
+    "energetic",
+    "creative"
+  ],
+  "bio": "Hi! I'm AmberPaw7926, a striped Tiger from Furryville. I enjoy Dancing, Cooking, Drawing. Friends describe me as friendly, energetic, creative. My bushy tail is always wagging when I'm having fun!"
+}

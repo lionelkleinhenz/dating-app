@@ -1,0 +1,23 @@
+{
+  "id": 45,
+  "image": "furrypfp45",
+  "name": "EmberFang3632",
+  "age": 18,
+  "gender": "female",
+  "pronouns": "she/her",
+  "location": "Furryville",
+  "species": "Dragon",
+  "fur_color": "golden",
+  "tail_type": "thin",
+  "activities": [
+    "Hiking",
+    "Cooking",
+    "Dancing"
+  ],
+  "personality_traits": [
+    "creative",
+    "energetic",
+    "adventurous"
+  ],
+  "bio": "Hi! I'm EmberFang3632, a golden Dragon from Furryville. I enjoy Hiking, Cooking, Dancing. Friends describe me as creative, energetic, adventurous. My thin tail is always wagging when I'm having fun!"
+}

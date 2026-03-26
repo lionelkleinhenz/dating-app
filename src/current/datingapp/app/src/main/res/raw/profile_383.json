@@ -1,0 +1,23 @@
+{
+  "id": 383,
+  "image": "furrypfp383",
+  "name": "EchoFur1599",
+  "age": 21,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Moonridge",
+  "species": "Panther",
+  "fur_color": "brown",
+  "tail_type": "feathered",
+  "activities": [
+    "Streaming",
+    "Music",
+    "Cooking"
+  ],
+  "personality_traits": [
+    "chill",
+    "creative",
+    "energetic"
+  ],
+  "bio": "Hi! I'm EchoFur1599, a brown Panther from Moonridge. I enjoy Streaming, Music, Cooking. Friends describe me as chill, creative, energetic. My feathered tail is always wagging when I'm having fun!"
+}

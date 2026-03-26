@@ -1,0 +1,23 @@
+{
+  "id": 5,
+  "image": "furrypfp5",
+  "name": "RiverClaw8376",
+  "age": 20,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Howl City",
+  "species": "Dog",
+  "fur_color": "white",
+  "tail_type": "curly",
+  "activities": [
+    "Gaming",
+    "Reading",
+    "Hiking"
+  ],
+  "personality_traits": [
+    "shy",
+    "friendly",
+    "energetic"
+  ],
+  "bio": "Hi! I'm RiverClaw8376, a white Dog from Howl City. I enjoy Gaming, Reading, Hiking. Friends describe me as shy, friendly, energetic. My curly tail is always wagging when I'm having fun!"
+}

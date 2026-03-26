@@ -1,0 +1,23 @@
+{
+  "id": 206,
+  "image": "furrypfp206",
+  "name": "AmberPaw3162",
+  "age": 35,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Tailtown",
+  "species": "Rabbit",
+  "fur_color": "white",
+  "tail_type": "curly",
+  "activities": [
+    "Reading",
+    "Hiking",
+    "Cooking"
+  ],
+  "personality_traits": [
+    "adventurous",
+    "shy",
+    "playful"
+  ],
+  "bio": "Hi! I'm AmberPaw3162, a white Rabbit from Tailtown. I enjoy Reading, Hiking, Cooking. Friends describe me as adventurous, shy, playful. My curly tail is always wagging when I'm having fun!"
+}

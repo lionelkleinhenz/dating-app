@@ -1,0 +1,23 @@
+{
+  "id": 75,
+  "image": "furrypfp75",
+  "name": "CloudRunner8775",
+  "age": 26,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Pawston",
+  "species": "Fox",
+  "fur_color": "striped",
+  "tail_type": "feathered",
+  "activities": [
+    "Dancing",
+    "Cosplay",
+    "Drawing"
+  ],
+  "personality_traits": [
+    "chill",
+    "creative",
+    "adventurous"
+  ],
+  "bio": "Hi! I'm CloudRunner8775, a striped Fox from Pawston. I enjoy Dancing, Cosplay, Drawing. Friends describe me as chill, creative, adventurous. My feathered tail is always wagging when I'm having fun!"
+}

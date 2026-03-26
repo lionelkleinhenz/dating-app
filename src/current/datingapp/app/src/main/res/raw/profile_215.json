@@ -1,0 +1,23 @@
+{
+  "id": 215,
+  "image": "furrypfp215",
+  "name": "BlazeTail3100",
+  "age": 19,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Claw Harbor",
+  "species": "Dragon",
+  "fur_color": "brown",
+  "tail_type": "bushy",
+  "activities": [
+    "Drawing",
+    "Music",
+    "Reading"
+  ],
+  "personality_traits": [
+    "adventurous",
+    "shy",
+    "chill"
+  ],
+  "bio": "Hi! I'm BlazeTail3100, a brown Dragon from Claw Harbor. I enjoy Drawing, Music, Reading. Friends describe me as adventurous, shy, chill. My bushy tail is always wagging when I'm having fun!"
+}

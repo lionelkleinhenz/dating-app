@@ -1,0 +1,23 @@
+{
+  "id": 333,
+  "image": "furrypfp333",
+  "name": "EchoFur898",
+  "age": 18,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Furfield",
+  "species": "Raccoon",
+  "fur_color": "blue",
+  "tail_type": "feathered",
+  "activities": [
+    "Hiking",
+    "Dancing",
+    "Reading"
+  ],
+  "personality_traits": [
+    "adventurous",
+    "energetic",
+    "chill"
+  ],
+  "bio": "Hi! I'm EchoFur898, a blue Raccoon from Furfield. I enjoy Hiking, Dancing, Reading. Friends describe me as adventurous, energetic, chill. My feathered tail is always wagging when I'm having fun!"
+}

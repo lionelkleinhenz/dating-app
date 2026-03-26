@@ -1,0 +1,23 @@
+{
+  "id": 3,
+  "image": "furrypfp3",
+  "name": "EchoFur390",
+  "age": 23,
+  "gender": "female",
+  "pronouns": "she/her",
+  "location": "Howl City",
+  "species": "Tiger",
+  "fur_color": "rainbow",
+  "tail_type": "bushy",
+  "activities": [
+    "Music",
+    "Dancing",
+    "Hiking"
+  ],
+  "personality_traits": [
+    "shy",
+    "creative",
+    "curious"
+  ],
+  "bio": "Hi! I'm EchoFur390, a rainbow Tiger from Howl City. I enjoy Music, Dancing, Hiking. Friends describe me as shy, creative, curious. My bushy tail is always wagging when I'm having fun!"
+}

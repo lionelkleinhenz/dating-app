@@ -1,0 +1,23 @@
+{
+  "id": 438,
+  "image": "furrypfp438",
+  "name": "EchoFur174",
+  "age": 32,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Tailtown",
+  "species": "Rabbit",
+  "fur_color": "red",
+  "tail_type": "feathered",
+  "activities": [
+    "Drawing",
+    "Hiking",
+    "Reading"
+  ],
+  "personality_traits": [
+    "adventurous",
+    "chill",
+    "shy"
+  ],
+  "bio": "Hi! I'm EchoFur174, a red Rabbit from Tailtown. I enjoy Drawing, Hiking, Reading. Friends describe me as adventurous, chill, shy. My feathered tail is always wagging when I'm having fun!"
+}

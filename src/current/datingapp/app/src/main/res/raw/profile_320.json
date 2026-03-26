@@ -1,0 +1,23 @@
+{
+  "id": 320,
+  "image": "furrypfp320",
+  "name": "CloudRunner7718",
+  "age": 30,
+  "gender": "female",
+  "pronouns": "she/her",
+  "location": "Furfield",
+  "species": "Fox",
+  "fur_color": "spotted",
+  "tail_type": "curly",
+  "activities": [
+    "Music",
+    "Hiking",
+    "Dancing"
+  ],
+  "personality_traits": [
+    "playful",
+    "adventurous",
+    "friendly"
+  ],
+  "bio": "Hi! I'm CloudRunner7718, a spotted Fox from Furfield. I enjoy Music, Hiking, Dancing. Friends describe me as playful, adventurous, friendly. My curly tail is always wagging when I'm having fun!"
+}

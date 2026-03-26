@@ -1,0 +1,23 @@
+{
+  "id": 19,
+  "image": "furrypfp19",
+  "name": "BlazeTail5322",
+  "age": 27,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Tailtown",
+  "species": "Dog",
+  "fur_color": "brown",
+  "tail_type": "bushy",
+  "activities": [
+    "Hiking",
+    "Music",
+    "Streaming"
+  ],
+  "personality_traits": [
+    "shy",
+    "playful",
+    "creative"
+  ],
+  "bio": "Hi! I'm BlazeTail5322, a brown Dog from Tailtown. I enjoy Hiking, Music, Streaming. Friends describe me as shy, playful, creative. My bushy tail is always wagging when I'm having fun!"
+}

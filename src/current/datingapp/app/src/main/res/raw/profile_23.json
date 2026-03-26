@@ -1,0 +1,23 @@
+{
+  "id": 23,
+  "image": "furrypfp23",
+  "name": "SkyStripe6523",
+  "age": 18,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Moonridge",
+  "species": "Raccoon",
+  "fur_color": "brown",
+  "tail_type": "curly",
+  "activities": [
+    "Drawing",
+    "Reading",
+    "Hiking"
+  ],
+  "personality_traits": [
+    "playful",
+    "chill",
+    "adventurous"
+  ],
+  "bio": "Hi! I'm SkyStripe6523, a brown Raccoon from Moonridge. I enjoy Drawing, Reading, Hiking. Friends describe me as playful, chill, adventurous. My curly tail is always wagging when I'm having fun!"
+}

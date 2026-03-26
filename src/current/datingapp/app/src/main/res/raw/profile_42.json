@@ -1,0 +1,23 @@
+{
+  "id": 42,
+  "image": "furrypfp42",
+  "name": "FrostTail5369",
+  "age": 28,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Furryville",
+  "species": "Dragon",
+  "fur_color": "rainbow",
+  "tail_type": "thin",
+  "activities": [
+    "Drawing",
+    "Music",
+    "Dancing"
+  ],
+  "personality_traits": [
+    "playful",
+    "creative",
+    "adventurous"
+  ],
+  "bio": "Hi! I'm FrostTail5369, a rainbow Dragon from Furryville. I enjoy Drawing, Music, Dancing. Friends describe me as playful, creative, adventurous. My thin tail is always wagging when I'm having fun!"
+}

@@ -1,0 +1,23 @@
+{
+  "id": 11,
+  "image": "furrypfp11",
+  "name": "BlazeTail7465",
+  "age": 32,
+  "gender": "female",
+  "pronouns": "she/her",
+  "location": "Star Hollow",
+  "species": "Cat",
+  "fur_color": "spotted",
+  "tail_type": "feathered",
+  "activities": [
+    "Streaming",
+    "Dancing",
+    "Cosplay"
+  ],
+  "personality_traits": [
+    "creative",
+    "curious",
+    "friendly"
+  ],
+  "bio": "Hi! I'm BlazeTail7465, a spotted Cat from Star Hollow. I enjoy Streaming, Dancing, Cosplay. Friends describe me as creative, curious, friendly. My feathered tail is always wagging when I'm having fun!"
+}

@@ -1,0 +1,23 @@
+{
+  "id": 496,
+  "image": "furrypfp496",
+  "name": "EmberFang201",
+  "age": 27,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Pawston",
+  "species": "Wolf",
+  "fur_color": "rainbow",
+  "tail_type": "short",
+  "activities": [
+    "Hiking",
+    "Music",
+    "Cooking"
+  ],
+  "personality_traits": [
+    "shy",
+    "friendly",
+    "playful"
+  ],
+  "bio": "Hi! I'm EmberFang201, a rainbow Wolf from Pawston. I enjoy Hiking, Music, Cooking. Friends describe me as shy, friendly, playful. My short tail is always wagging when I'm having fun!"
+}

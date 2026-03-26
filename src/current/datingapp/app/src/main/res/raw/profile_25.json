@@ -1,0 +1,23 @@
+{
+  "id": 25,
+  "image": "furrypfp25",
+  "name": "BlazeTail8397",
+  "age": 30,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Tailtown",
+  "species": "Dragon",
+  "fur_color": "brown",
+  "tail_type": "thin",
+  "activities": [
+    "Drawing",
+    "Cooking",
+    "Gaming"
+  ],
+  "personality_traits": [
+    "adventurous",
+    "curious",
+    "creative"
+  ],
+  "bio": "Hi! I'm BlazeTail8397, a brown Dragon from Tailtown. I enjoy Drawing, Cooking, Gaming. Friends describe me as adventurous, curious, creative. My thin tail is always wagging when I'm having fun!"
+}

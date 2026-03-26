@@ -1,0 +1,23 @@
+{
+  "id": 230,
+  "image": "furrypfp230",
+  "name": "ShadowWolf2428",
+  "age": 22,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Howl City",
+  "species": "Raccoon",
+  "fur_color": "rainbow",
+  "tail_type": "curly",
+  "activities": [
+    "Hiking",
+    "Drawing",
+    "Cooking"
+  ],
+  "personality_traits": [
+    "chill",
+    "creative",
+    "adventurous"
+  ],
+  "bio": "Hi! I'm ShadowWolf2428, a rainbow Raccoon from Howl City. I enjoy Hiking, Drawing, Cooking. Friends describe me as chill, creative, adventurous. My curly tail is always wagging when I'm having fun!"
+}

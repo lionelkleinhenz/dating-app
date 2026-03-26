@@ -1,0 +1,23 @@
+{
+  "id": 180,
+  "image": "furrypfp180",
+  "name": "FluffyFox9763",
+  "age": 34,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Howl City",
+  "species": "Cat",
+  "fur_color": "black",
+  "tail_type": "feathered",
+  "activities": [
+    "Music",
+    "Hiking",
+    "Dancing"
+  ],
+  "personality_traits": [
+    "playful",
+    "creative",
+    "chill"
+  ],
+  "bio": "Hi! I'm FluffyFox9763, a black Cat from Howl City. I enjoy Music, Hiking, Dancing. Friends describe me as playful, creative, chill. My feathered tail is always wagging when I'm having fun!"
+}

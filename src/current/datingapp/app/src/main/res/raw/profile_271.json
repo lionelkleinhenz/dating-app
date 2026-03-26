@@ -1,0 +1,23 @@
+{
+  "id": 271,
+  "image": "furrypfp271",
+  "name": "EmberFang704",
+  "age": 34,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Tailtown",
+  "species": "Cat",
+  "fur_color": "brown",
+  "tail_type": "feathered",
+  "activities": [
+    "Cooking",
+    "Reading",
+    "Dancing"
+  ],
+  "personality_traits": [
+    "playful",
+    "chill",
+    "creative"
+  ],
+  "bio": "Hi! I'm EmberFang704, a brown Cat from Tailtown. I enjoy Cooking, Reading, Dancing. Friends describe me as playful, chill, creative. My feathered tail is always wagging when I'm having fun!"
+}

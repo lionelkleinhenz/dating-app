@@ -1,0 +1,23 @@
+{
+  "id": 415,
+  "image": "furrypfp415",
+  "name": "EmberFang9350",
+  "age": 22,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Claw Harbor",
+  "species": "Raccoon",
+  "fur_color": "blue",
+  "tail_type": "curly",
+  "activities": [
+    "Music",
+    "Cooking",
+    "Gaming"
+  ],
+  "personality_traits": [
+    "curious",
+    "adventurous",
+    "energetic"
+  ],
+  "bio": "Hi! I'm EmberFang9350, a blue Raccoon from Claw Harbor. I enjoy Music, Cooking, Gaming. Friends describe me as curious, adventurous, energetic. My curly tail is always wagging when I'm having fun!"
+}

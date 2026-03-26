@@ -1,0 +1,23 @@
+{
+  "id": 18,
+  "image": "furrypfp18",
+  "name": "EchoFur500",
+  "age": 21,
+  "gender": "female",
+  "pronouns": "she/her",
+  "location": "Claw Harbor",
+  "species": "Dragon",
+  "fur_color": "rainbow",
+  "tail_type": "curly",
+  "activities": [
+    "Streaming",
+    "Music",
+    "Cooking"
+  ],
+  "personality_traits": [
+    "creative",
+    "shy",
+    "chill"
+  ],
+  "bio": "Hi! I'm EchoFur500, a rainbow Dragon from Claw Harbor. I enjoy Streaming, Music, Cooking. Friends describe me as creative, shy, chill. My curly tail is always wagging when I'm having fun!"
+}

@@ -1,0 +1,23 @@
+{
+  "id": 80,
+  "image": "furrypfp80",
+  "name": "EmberFang5045",
+  "age": 20,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Pawston",
+  "species": "Raccoon",
+  "fur_color": "spotted",
+  "tail_type": "curly",
+  "activities": [
+    "Cosplay",
+    "Cooking",
+    "Gaming"
+  ],
+  "personality_traits": [
+    "adventurous",
+    "energetic",
+    "friendly"
+  ],
+  "bio": "Hi! I'm EmberFang5045, a spotted Raccoon from Pawston. I enjoy Cosplay, Cooking, Gaming. Friends describe me as adventurous, energetic, friendly. My curly tail is always wagging when I'm having fun!"
+}

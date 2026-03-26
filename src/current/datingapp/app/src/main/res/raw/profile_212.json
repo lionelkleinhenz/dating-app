@@ -1,0 +1,23 @@
+{
+  "id": 212,
+  "image": "furrypfp212",
+  "name": "BlazeTail2056",
+  "age": 21,
+  "gender": "female",
+  "pronouns": "she/her",
+  "location": "Furryville",
+  "species": "Panther",
+  "fur_color": "golden",
+  "tail_type": "thin",
+  "activities": [
+    "Hiking",
+    "Cosplay",
+    "Music"
+  ],
+  "personality_traits": [
+    "friendly",
+    "adventurous",
+    "creative"
+  ],
+  "bio": "Hi! I'm BlazeTail2056, a golden Panther from Furryville. I enjoy Hiking, Cosplay, Music. Friends describe me as friendly, adventurous, creative. My thin tail is always wagging when I'm having fun!"
+}

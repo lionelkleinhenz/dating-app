@@ -1,0 +1,23 @@
+{
+  "id": 126,
+  "image": "furrypfp126",
+  "name": "CloudRunner8226",
+  "age": 21,
+  "gender": "female",
+  "pronouns": "she/her",
+  "location": "Moonridge",
+  "species": "Dog",
+  "fur_color": "spotted",
+  "tail_type": "curly",
+  "activities": [
+    "Cooking",
+    "Streaming",
+    "Music"
+  ],
+  "personality_traits": [
+    "energetic",
+    "adventurous",
+    "curious"
+  ],
+  "bio": "Hi! I'm CloudRunner8226, a spotted Dog from Moonridge. I enjoy Cooking, Streaming, Music. Friends describe me as energetic, adventurous, curious. My curly tail is always wagging when I'm having fun!"
+}

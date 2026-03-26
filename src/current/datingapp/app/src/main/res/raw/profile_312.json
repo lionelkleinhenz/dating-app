@@ -1,0 +1,23 @@
+{
+  "id": 312,
+  "image": "furrypfp312",
+  "name": "StarPaw2098",
+  "age": 31,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Furryville",
+  "species": "Panther",
+  "fur_color": "white",
+  "tail_type": "short",
+  "activities": [
+    "Hiking",
+    "Dancing",
+    "Music"
+  ],
+  "personality_traits": [
+    "shy",
+    "creative",
+    "friendly"
+  ],
+  "bio": "Hi! I'm StarPaw2098, a white Panther from Furryville. I enjoy Hiking, Dancing, Music. Friends describe me as shy, creative, friendly. My short tail is always wagging when I'm having fun!"
+}

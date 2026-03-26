@@ -1,0 +1,23 @@
+{
+  "id": 26,
+  "image": "furrypfp26",
+  "name": "CloudRunner2397",
+  "age": 21,
+  "gender": "female",
+  "pronouns": "she/her",
+  "location": "Star Hollow",
+  "species": "Dog",
+  "fur_color": "rainbow",
+  "tail_type": "feathered",
+  "activities": [
+    "Drawing",
+    "Gaming",
+    "Reading"
+  ],
+  "personality_traits": [
+    "shy",
+    "energetic",
+    "chill"
+  ],
+  "bio": "Hi! I'm CloudRunner2397, a rainbow Dog from Star Hollow. I enjoy Drawing, Gaming, Reading. Friends describe me as shy, energetic, chill. My feathered tail is always wagging when I'm having fun!"
+}

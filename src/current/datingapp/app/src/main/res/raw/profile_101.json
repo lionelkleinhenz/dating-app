@@ -1,0 +1,23 @@
+{
+  "id": 101,
+  "image": "furrypfp101",
+  "name": "BlazeTail3988",
+  "age": 19,
+  "gender": "female",
+  "pronouns": "she/her",
+  "location": "Furryville",
+  "species": "Panther",
+  "fur_color": "striped",
+  "tail_type": "curly",
+  "activities": [
+    "Music",
+    "Cooking",
+    "Cosplay"
+  ],
+  "personality_traits": [
+    "curious",
+    "shy",
+    "creative"
+  ],
+  "bio": "Hi! I'm BlazeTail3988, a striped Panther from Furryville. I enjoy Music, Cooking, Cosplay. Friends describe me as curious, shy, creative. My curly tail is always wagging when I'm having fun!"
+}

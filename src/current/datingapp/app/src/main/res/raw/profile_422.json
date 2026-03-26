@@ -1,0 +1,23 @@
+{
+  "id": 422,
+  "image": "furrypfp422",
+  "name": "FrostTail8999",
+  "age": 24,
+  "gender": "female",
+  "pronouns": "she/her",
+  "location": "Pawston",
+  "species": "Cat",
+  "fur_color": "striped",
+  "tail_type": "thin",
+  "activities": [
+    "Hiking",
+    "Streaming",
+    "Dancing"
+  ],
+  "personality_traits": [
+    "creative",
+    "friendly",
+    "curious"
+  ],
+  "bio": "Hi! I'm FrostTail8999, a striped Cat from Pawston. I enjoy Hiking, Streaming, Dancing. Friends describe me as creative, friendly, curious. My thin tail is always wagging when I'm having fun!"
+}

@@ -1,0 +1,23 @@
+{
+  "id": 165,
+  "image": "furrypfp165",
+  "name": "FluffyFox1630",
+  "age": 28,
+  "gender": "female",
+  "pronouns": "she/her",
+  "location": "Star Hollow",
+  "species": "Fox",
+  "fur_color": "red",
+  "tail_type": "curly",
+  "activities": [
+    "Reading",
+    "Streaming",
+    "Gaming"
+  ],
+  "personality_traits": [
+    "adventurous",
+    "chill",
+    "playful"
+  ],
+  "bio": "Hi! I'm FluffyFox1630, a red Fox from Star Hollow. I enjoy Reading, Streaming, Gaming. Friends describe me as adventurous, chill, playful. My curly tail is always wagging when I'm having fun!"
+}

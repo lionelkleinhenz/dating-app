@@ -1,0 +1,23 @@
+{
+  "id": 204,
+  "image": "furrypfp204",
+  "name": "CloudRunner2040",
+  "age": 19,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Howl City",
+  "species": "Cat",
+  "fur_color": "blue",
+  "tail_type": "thin",
+  "activities": [
+    "Reading",
+    "Drawing",
+    "Gaming"
+  ],
+  "personality_traits": [
+    "creative",
+    "curious",
+    "adventurous"
+  ],
+  "bio": "Hi! I'm CloudRunner2040, a blue Cat from Howl City. I enjoy Reading, Drawing, Gaming. Friends describe me as creative, curious, adventurous. My thin tail is always wagging when I'm having fun!"
+}

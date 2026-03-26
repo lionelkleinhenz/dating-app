@@ -1,0 +1,23 @@
+{
+  "id": 87,
+  "image": "furrypfp87",
+  "name": "EmberFang5175",
+  "age": 26,
+  "gender": "female",
+  "pronouns": "she/her",
+  "location": "Star Hollow",
+  "species": "Raccoon",
+  "fur_color": "red",
+  "tail_type": "feathered",
+  "activities": [
+    "Reading",
+    "Hiking",
+    "Streaming"
+  ],
+  "personality_traits": [
+    "creative",
+    "playful",
+    "chill"
+  ],
+  "bio": "Hi! I'm EmberFang5175, a red Raccoon from Star Hollow. I enjoy Reading, Hiking, Streaming. Friends describe me as creative, playful, chill. My feathered tail is always wagging when I'm having fun!"
+}

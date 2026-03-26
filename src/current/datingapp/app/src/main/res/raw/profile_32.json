@@ -1,0 +1,23 @@
+{
+  "id": 32,
+  "image": "furrypfp32",
+  "name": "AmberPaw7236",
+  "age": 28,
+  "gender": "female",
+  "pronouns": "she/her",
+  "location": "Star Hollow",
+  "species": "Cat",
+  "fur_color": "white",
+  "tail_type": "short",
+  "activities": [
+    "Gaming",
+    "Music",
+    "Hiking"
+  ],
+  "personality_traits": [
+    "friendly",
+    "shy",
+    "adventurous"
+  ],
+  "bio": "Hi! I'm AmberPaw7236, a white Cat from Star Hollow. I enjoy Gaming, Music, Hiking. Friends describe me as friendly, shy, adventurous. My short tail is always wagging when I'm having fun!"
+}

@@ -1,0 +1,23 @@
+{
+  "id": 131,
+  "image": "furrypfp131",
+  "name": "CloudRunner7320",
+  "age": 34,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Howl City",
+  "species": "Tiger",
+  "fur_color": "red",
+  "tail_type": "thin",
+  "activities": [
+    "Dancing",
+    "Cooking",
+    "Reading"
+  ],
+  "personality_traits": [
+    "creative",
+    "chill",
+    "playful"
+  ],
+  "bio": "Hi! I'm CloudRunner7320, a red Tiger from Howl City. I enjoy Dancing, Cooking, Reading. Friends describe me as creative, chill, playful. My thin tail is always wagging when I'm having fun!"
+}

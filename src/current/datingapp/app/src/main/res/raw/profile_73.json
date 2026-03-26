@@ -1,0 +1,23 @@
+{
+  "id": 73,
+  "image": "furrypfp73",
+  "name": "FluffyFox2301",
+  "age": 30,
+  "gender": "female",
+  "pronouns": "she/her",
+  "location": "Tailtown",
+  "species": "Raccoon",
+  "fur_color": "white",
+  "tail_type": "thin",
+  "activities": [
+    "Cooking",
+    "Gaming",
+    "Cosplay"
+  ],
+  "personality_traits": [
+    "creative",
+    "adventurous",
+    "energetic"
+  ],
+  "bio": "Hi! I'm FluffyFox2301, a white Raccoon from Tailtown. I enjoy Cooking, Gaming, Cosplay. Friends describe me as creative, adventurous, energetic. My thin tail is always wagging when I'm having fun!"
+}

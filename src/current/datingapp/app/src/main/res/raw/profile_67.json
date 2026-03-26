@@ -1,0 +1,23 @@
+{
+  "id": 67,
+  "image": "furrypfp67",
+  "name": "BlazeTail38",
+  "age": 30,
+  "gender": "female",
+  "pronouns": "she/her",
+  "location": "Howl City",
+  "species": "Dog",
+  "fur_color": "black",
+  "tail_type": "feathered",
+  "activities": [
+    "Cosplay",
+    "Dancing",
+    "Reading"
+  ],
+  "personality_traits": [
+    "energetic",
+    "chill",
+    "shy"
+  ],
+  "bio": "Hi! I'm BlazeTail38, a black Dog from Howl City. I enjoy Cosplay, Dancing, Reading. Friends describe me as energetic, chill, shy. My feathered tail is always wagging when I'm having fun!"
+}

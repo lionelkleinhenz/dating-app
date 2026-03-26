@@ -1,0 +1,23 @@
+{
+  "id": 160,
+  "image": "furrypfp160",
+  "name": "LunaTail4215",
+  "age": 29,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Claw Harbor",
+  "species": "Rabbit",
+  "fur_color": "striped",
+  "tail_type": "bushy",
+  "activities": [
+    "Reading",
+    "Music",
+    "Cooking"
+  ],
+  "personality_traits": [
+    "friendly",
+    "playful",
+    "chill"
+  ],
+  "bio": "Hi! I'm LunaTail4215, a striped Rabbit from Claw Harbor. I enjoy Reading, Music, Cooking. Friends describe me as friendly, playful, chill. My bushy tail is always wagging when I'm having fun!"
+}

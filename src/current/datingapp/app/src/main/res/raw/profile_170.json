@@ -1,0 +1,23 @@
+{
+  "id": 170,
+  "image": "furrypfp170",
+  "name": "LunaTail127",
+  "age": 28,
+  "gender": "female",
+  "pronouns": "she/her",
+  "location": "Tailtown",
+  "species": "Dragon",
+  "fur_color": "black",
+  "tail_type": "thin",
+  "activities": [
+    "Drawing",
+    "Music",
+    "Streaming"
+  ],
+  "personality_traits": [
+    "curious",
+    "shy",
+    "energetic"
+  ],
+  "bio": "Hi! I'm LunaTail127, a black Dragon from Tailtown. I enjoy Drawing, Music, Streaming. Friends describe me as curious, shy, energetic. My thin tail is always wagging when I'm having fun!"
+}

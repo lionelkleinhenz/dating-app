@@ -1,0 +1,23 @@
+{
+  "id": 400,
+  "image": "furrypfp400",
+  "name": "FluffyFox2389",
+  "age": 23,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Furryville",
+  "species": "Tiger",
+  "fur_color": "golden",
+  "tail_type": "short",
+  "activities": [
+    "Cosplay",
+    "Streaming",
+    "Cooking"
+  ],
+  "personality_traits": [
+    "shy",
+    "curious",
+    "playful"
+  ],
+  "bio": "Hi! I'm FluffyFox2389, a golden Tiger from Furryville. I enjoy Cosplay, Streaming, Cooking. Friends describe me as shy, curious, playful. My short tail is always wagging when I'm having fun!"
+}

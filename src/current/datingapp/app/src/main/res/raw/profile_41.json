@@ -1,0 +1,23 @@
+{
+  "id": 41,
+  "image": "furrypfp41",
+  "name": "CloudRunner3031",
+  "age": 29,
+  "gender": "female",
+  "pronouns": "she/her",
+  "location": "Furfield",
+  "species": "Fox",
+  "fur_color": "red",
+  "tail_type": "feathered",
+  "activities": [
+    "Gaming",
+    "Drawing",
+    "Dancing"
+  ],
+  "personality_traits": [
+    "adventurous",
+    "curious",
+    "chill"
+  ],
+  "bio": "Hi! I'm CloudRunner3031, a red Fox from Furfield. I enjoy Gaming, Drawing, Dancing. Friends describe me as adventurous, curious, chill. My feathered tail is always wagging when I'm having fun!"
+}

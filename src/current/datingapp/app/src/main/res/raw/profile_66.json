@@ -1,0 +1,23 @@
+{
+  "id": 66,
+  "image": "furrypfp66",
+  "name": "FluffyFox7053",
+  "age": 18,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Moonridge",
+  "species": "Fox",
+  "fur_color": "striped",
+  "tail_type": "feathered",
+  "activities": [
+    "Reading",
+    "Dancing",
+    "Streaming"
+  ],
+  "personality_traits": [
+    "adventurous",
+    "shy",
+    "friendly"
+  ],
+  "bio": "Hi! I'm FluffyFox7053, a striped Fox from Moonridge. I enjoy Reading, Dancing, Streaming. Friends describe me as adventurous, shy, friendly. My feathered tail is always wagging when I'm having fun!"
+}

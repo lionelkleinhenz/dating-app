@@ -1,0 +1,23 @@
+{
+  "id": 315,
+  "image": "furrypfp315",
+  "name": "CloudRunner2101",
+  "age": 32,
+  "gender": "female",
+  "pronouns": "she/her",
+  "location": "Tailtown",
+  "species": "Panther",
+  "fur_color": "red",
+  "tail_type": "thin",
+  "activities": [
+    "Reading",
+    "Streaming",
+    "Cooking"
+  ],
+  "personality_traits": [
+    "shy",
+    "friendly",
+    "energetic"
+  ],
+  "bio": "Hi! I'm CloudRunner2101, a red Panther from Tailtown. I enjoy Reading, Streaming, Cooking. Friends describe me as shy, friendly, energetic. My thin tail is always wagging when I'm having fun!"
+}

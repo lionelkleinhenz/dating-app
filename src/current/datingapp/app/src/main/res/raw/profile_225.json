@@ -1,0 +1,23 @@
+{
+  "id": 225,
+  "image": "furrypfp225",
+  "name": "CloudRunner6469",
+  "age": 34,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Tailtown",
+  "species": "Fox",
+  "fur_color": "spotted",
+  "tail_type": "short",
+  "activities": [
+    "Dancing",
+    "Drawing",
+    "Hiking"
+  ],
+  "personality_traits": [
+    "playful",
+    "shy",
+    "curious"
+  ],
+  "bio": "Hi! I'm CloudRunner6469, a spotted Fox from Tailtown. I enjoy Dancing, Drawing, Hiking. Friends describe me as playful, shy, curious. My short tail is always wagging when I'm having fun!"
+}

@@ -1,0 +1,23 @@
+{
+  "id": 221,
+  "image": "furrypfp221",
+  "name": "CloudRunner6916",
+  "age": 23,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Furfield",
+  "species": "Wolf",
+  "fur_color": "golden",
+  "tail_type": "curly",
+  "activities": [
+    "Cooking",
+    "Cosplay",
+    "Dancing"
+  ],
+  "personality_traits": [
+    "curious",
+    "chill",
+    "playful"
+  ],
+  "bio": "Hi! I'm CloudRunner6916, a golden Wolf from Furfield. I enjoy Cooking, Cosplay, Dancing. Friends describe me as curious, chill, playful. My curly tail is always wagging when I'm having fun!"
+}

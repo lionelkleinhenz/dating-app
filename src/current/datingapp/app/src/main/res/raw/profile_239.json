@@ -1,0 +1,23 @@
+{
+  "id": 239,
+  "image": "furrypfp239",
+  "name": "EmberFang3630",
+  "age": 28,
+  "gender": "female",
+  "pronouns": "she/her",
+  "location": "Moonridge",
+  "species": "Fox",
+  "fur_color": "black",
+  "tail_type": "short",
+  "activities": [
+    "Hiking",
+    "Dancing",
+    "Reading"
+  ],
+  "personality_traits": [
+    "shy",
+    "creative",
+    "chill"
+  ],
+  "bio": "Hi! I'm EmberFang3630, a black Fox from Moonridge. I enjoy Hiking, Dancing, Reading. Friends describe me as shy, creative, chill. My short tail is always wagging when I'm having fun!"
+}

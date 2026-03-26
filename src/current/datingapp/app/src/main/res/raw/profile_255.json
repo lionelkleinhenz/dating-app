@@ -1,0 +1,23 @@
+{
+  "id": 255,
+  "image": "furrypfp255",
+  "name": "StarPaw7802",
+  "age": 19,
+  "gender": "female",
+  "pronouns": "she/her",
+  "location": "Tailtown",
+  "species": "Rabbit",
+  "fur_color": "striped",
+  "tail_type": "bushy",
+  "activities": [
+    "Reading",
+    "Dancing",
+    "Hiking"
+  ],
+  "personality_traits": [
+    "chill",
+    "energetic",
+    "friendly"
+  ],
+  "bio": "Hi! I'm StarPaw7802, a striped Rabbit from Tailtown. I enjoy Reading, Dancing, Hiking. Friends describe me as chill, energetic, friendly. My bushy tail is always wagging when I'm having fun!"
+}

@@ -1,0 +1,23 @@
+{
+  "id": 194,
+  "image": "furrypfp194",
+  "name": "FluffyFox4950",
+  "age": 34,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Furryville",
+  "species": "Raccoon",
+  "fur_color": "rainbow",
+  "tail_type": "curly",
+  "activities": [
+    "Music",
+    "Cooking",
+    "Drawing"
+  ],
+  "personality_traits": [
+    "chill",
+    "curious",
+    "playful"
+  ],
+  "bio": "Hi! I'm FluffyFox4950, a rainbow Raccoon from Furryville. I enjoy Music, Cooking, Drawing. Friends describe me as chill, curious, playful. My curly tail is always wagging when I'm having fun!"
+}

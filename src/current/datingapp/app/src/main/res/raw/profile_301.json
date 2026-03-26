@@ -1,0 +1,23 @@
+{
+  "id": 301,
+  "image": "furrypfp301",
+  "name": "AmberPaw4006",
+  "age": 33,
+  "gender": "female",
+  "pronouns": "she/her",
+  "location": "Furfield",
+  "species": "Raccoon",
+  "fur_color": "blue",
+  "tail_type": "feathered",
+  "activities": [
+    "Hiking",
+    "Streaming",
+    "Cooking"
+  ],
+  "personality_traits": [
+    "creative",
+    "curious",
+    "energetic"
+  ],
+  "bio": "Hi! I'm AmberPaw4006, a blue Raccoon from Furfield. I enjoy Hiking, Streaming, Cooking. Friends describe me as creative, curious, energetic. My feathered tail is always wagging when I'm having fun!"
+}

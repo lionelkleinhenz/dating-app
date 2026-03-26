@@ -1,0 +1,23 @@
+{
+  "id": 411,
+  "image": "furrypfp411",
+  "name": "EmberFang8204",
+  "age": 29,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Furfield",
+  "species": "Panther",
+  "fur_color": "brown",
+  "tail_type": "bushy",
+  "activities": [
+    "Cooking",
+    "Reading",
+    "Gaming"
+  ],
+  "personality_traits": [
+    "shy",
+    "playful",
+    "adventurous"
+  ],
+  "bio": "Hi! I'm EmberFang8204, a brown Panther from Furfield. I enjoy Cooking, Reading, Gaming. Friends describe me as shy, playful, adventurous. My bushy tail is always wagging when I'm having fun!"
+}

@@ -1,0 +1,23 @@
+{
+  "id": 36,
+  "image": "furrypfp36",
+  "name": "CloudRunner3298",
+  "age": 23,
+  "gender": "female",
+  "pronouns": "she/her",
+  "location": "Tailtown",
+  "species": "Raccoon",
+  "fur_color": "red",
+  "tail_type": "feathered",
+  "activities": [
+    "Streaming",
+    "Cosplay",
+    "Drawing"
+  ],
+  "personality_traits": [
+    "creative",
+    "energetic",
+    "chill"
+  ],
+  "bio": "Hi! I'm CloudRunner3298, a red Raccoon from Tailtown. I enjoy Streaming, Cosplay, Drawing. Friends describe me as creative, energetic, chill. My feathered tail is always wagging when I'm having fun!"
+}

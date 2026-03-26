@@ -1,0 +1,23 @@
+{
+  "id": 124,
+  "image": "furrypfp124",
+  "name": "FluffyFox3687",
+  "age": 29,
+  "gender": "female",
+  "pronouns": "she/her",
+  "location": "Furryville",
+  "species": "Wolf",
+  "fur_color": "golden",
+  "tail_type": "thin",
+  "activities": [
+    "Hiking",
+    "Cooking",
+    "Music"
+  ],
+  "personality_traits": [
+    "creative",
+    "adventurous",
+    "friendly"
+  ],
+  "bio": "Hi! I'm FluffyFox3687, a golden Wolf from Furryville. I enjoy Hiking, Cooking, Music. Friends describe me as creative, adventurous, friendly. My thin tail is always wagging when I'm having fun!"
+}

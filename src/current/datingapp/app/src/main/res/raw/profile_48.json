@@ -1,0 +1,23 @@
+{
+  "id": 48,
+  "image": "furrypfp48",
+  "name": "FluffyFox1990",
+  "age": 22,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Tailtown",
+  "species": "Tiger",
+  "fur_color": "black",
+  "tail_type": "bushy",
+  "activities": [
+    "Gaming",
+    "Cosplay",
+    "Drawing"
+  ],
+  "personality_traits": [
+    "playful",
+    "energetic",
+    "chill"
+  ],
+  "bio": "Hi! I'm FluffyFox1990, a black Tiger from Tailtown. I enjoy Gaming, Cosplay, Drawing. Friends describe me as playful, energetic, chill. My bushy tail is always wagging when I'm having fun!"
+}

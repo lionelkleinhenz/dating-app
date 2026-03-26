@@ -1,0 +1,23 @@
+{
+  "id": 200,
+  "image": "furrypfp200",
+  "name": "EchoFur6645",
+  "age": 33,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Moonridge",
+  "species": "Raccoon",
+  "fur_color": "golden",
+  "tail_type": "curly",
+  "activities": [
+    "Music",
+    "Cooking",
+    "Dancing"
+  ],
+  "personality_traits": [
+    "chill",
+    "creative",
+    "curious"
+  ],
+  "bio": "Hi! I'm EchoFur6645, a golden Raccoon from Moonridge. I enjoy Music, Cooking, Dancing. Friends describe me as chill, creative, curious. My curly tail is always wagging when I'm having fun!"
+}

@@ -1,0 +1,23 @@
+{
+  "id": 37,
+  "image": "furrypfp37",
+  "name": "EchoFur6844",
+  "age": 24,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Star Hollow",
+  "species": "Rabbit",
+  "fur_color": "striped",
+  "tail_type": "feathered",
+  "activities": [
+    "Music",
+    "Reading",
+    "Drawing"
+  ],
+  "personality_traits": [
+    "adventurous",
+    "friendly",
+    "energetic"
+  ],
+  "bio": "Hi! I'm EchoFur6844, a striped Rabbit from Star Hollow. I enjoy Music, Reading, Drawing. Friends describe me as adventurous, friendly, energetic. My feathered tail is always wagging when I'm having fun!"
+}

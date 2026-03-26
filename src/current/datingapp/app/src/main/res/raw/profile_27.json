@@ -1,0 +1,23 @@
+{
+  "id": 27,
+  "image": "furrypfp27",
+  "name": "RiverClaw2180",
+  "age": 24,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Star Hollow",
+  "species": "Panther",
+  "fur_color": "red",
+  "tail_type": "thin",
+  "activities": [
+    "Streaming",
+    "Cooking",
+    "Reading"
+  ],
+  "personality_traits": [
+    "friendly",
+    "curious",
+    "shy"
+  ],
+  "bio": "Hi! I'm RiverClaw2180, a red Panther from Star Hollow. I enjoy Streaming, Cooking, Reading. Friends describe me as friendly, curious, shy. My thin tail is always wagging when I'm having fun!"
+}

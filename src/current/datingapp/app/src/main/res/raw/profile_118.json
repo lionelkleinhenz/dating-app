@@ -1,0 +1,23 @@
+{
+  "id": 118,
+  "image": "furrypfp118",
+  "name": "BlazeTail5183",
+  "age": 35,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Furfield",
+  "species": "Wolf",
+  "fur_color": "blue",
+  "tail_type": "bushy",
+  "activities": [
+    "Hiking",
+    "Cosplay",
+    "Gaming"
+  ],
+  "personality_traits": [
+    "adventurous",
+    "energetic",
+    "shy"
+  ],
+  "bio": "Hi! I'm BlazeTail5183, a blue Wolf from Furfield. I enjoy Hiking, Cosplay, Gaming. Friends describe me as adventurous, energetic, shy. My bushy tail is always wagging when I'm having fun!"
+}

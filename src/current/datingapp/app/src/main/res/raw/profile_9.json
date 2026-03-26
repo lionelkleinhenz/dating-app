@@ -1,0 +1,23 @@
+{
+  "id": 9,
+  "image": "furrypfp9",
+  "name": "FrostTail724",
+  "age": 29,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Howl City",
+  "species": "Rabbit",
+  "fur_color": "black",
+  "tail_type": "curly",
+  "activities": [
+    "Reading",
+    "Streaming",
+    "Drawing"
+  ],
+  "personality_traits": [
+    "creative",
+    "shy",
+    "playful"
+  ],
+  "bio": "Hi! I'm FrostTail724, a black Rabbit from Howl City. I enjoy Reading, Streaming, Drawing. Friends describe me as creative, shy, playful. My curly tail is always wagging when I'm having fun!"
+}

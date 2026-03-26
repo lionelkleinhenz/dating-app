@@ -1,0 +1,23 @@
+{
+  "id": 64,
+  "image": "furrypfp64",
+  "name": "StarPaw3993",
+  "age": 29,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Star Hollow",
+  "species": "Cat",
+  "fur_color": "blue",
+  "tail_type": "short",
+  "activities": [
+    "Hiking",
+    "Cosplay",
+    "Music"
+  ],
+  "personality_traits": [
+    "playful",
+    "friendly",
+    "energetic"
+  ],
+  "bio": "Hi! I'm StarPaw3993, a blue Cat from Star Hollow. I enjoy Hiking, Cosplay, Music. Friends describe me as playful, friendly, energetic. My short tail is always wagging when I'm having fun!"
+}

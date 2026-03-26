@@ -1,0 +1,23 @@
+{
+  "id": 68,
+  "image": "furrypfp68",
+  "name": "FluffyFox1062",
+  "age": 29,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Star Hollow",
+  "species": "Cat",
+  "fur_color": "striped",
+  "tail_type": "curly",
+  "activities": [
+    "Gaming",
+    "Hiking",
+    "Music"
+  ],
+  "personality_traits": [
+    "playful",
+    "friendly",
+    "creative"
+  ],
+  "bio": "Hi! I'm FluffyFox1062, a striped Cat from Star Hollow. I enjoy Gaming, Hiking, Music. Friends describe me as playful, friendly, creative. My curly tail is always wagging when I'm having fun!"
+}

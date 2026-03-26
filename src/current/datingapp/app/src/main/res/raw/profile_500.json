@@ -1,0 +1,23 @@
+{
+  "id": 500,
+  "image": "furrypfp500",
+  "name": "LunaTail5001",
+  "age": 33,
+  "gender": "female",
+  "pronouns": "she/her",
+  "location": "Pawston",
+  "species": "Dragon",
+  "fur_color": "red",
+  "tail_type": "short",
+  "activities": [
+    "Streaming",
+    "Cooking",
+    "Cosplay"
+  ],
+  "personality_traits": [
+    "curious",
+    "energetic",
+    "shy"
+  ],
+  "bio": "Hi! I'm LunaTail5001, a red Dragon from Pawston. I enjoy Streaming, Cooking, Cosplay. Friends describe me as curious, energetic, shy. My short tail is always wagging when I'm having fun!"
+}

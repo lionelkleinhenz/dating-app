@@ -1,0 +1,23 @@
+{
+  "id": 282,
+  "image": "furrypfp282",
+  "name": "FluffyFox8792",
+  "age": 18,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Claw Harbor",
+  "species": "Dog",
+  "fur_color": "striped",
+  "tail_type": "feathered",
+  "activities": [
+    "Streaming",
+    "Dancing",
+    "Drawing"
+  ],
+  "personality_traits": [
+    "curious",
+    "shy",
+    "playful"
+  ],
+  "bio": "Hi! I'm FluffyFox8792, a striped Dog from Claw Harbor. I enjoy Streaming, Dancing, Drawing. Friends describe me as curious, shy, playful. My feathered tail is always wagging when I'm having fun!"
+}

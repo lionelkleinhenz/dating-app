@@ -1,0 +1,23 @@
+{
+  "id": 166,
+  "image": "furrypfp166",
+  "name": "CloudRunner9905",
+  "age": 19,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Moonridge",
+  "species": "Panther",
+  "fur_color": "brown",
+  "tail_type": "curly",
+  "activities": [
+    "Cooking",
+    "Dancing",
+    "Cosplay"
+  ],
+  "personality_traits": [
+    "friendly",
+    "creative",
+    "curious"
+  ],
+  "bio": "Hi! I'm CloudRunner9905, a brown Panther from Moonridge. I enjoy Cooking, Dancing, Cosplay. Friends describe me as friendly, creative, curious. My curly tail is always wagging when I'm having fun!"
+}

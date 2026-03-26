@@ -1,0 +1,23 @@
+{
+  "id": 16,
+  "image": "furrypfp16",
+  "name": "ShadowWolf7707",
+  "age": 20,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Furfield",
+  "species": "Panther",
+  "fur_color": "spotted",
+  "tail_type": "curly",
+  "activities": [
+    "Cooking",
+    "Music",
+    "Cosplay"
+  ],
+  "personality_traits": [
+    "friendly",
+    "curious",
+    "adventurous"
+  ],
+  "bio": "Hi! I'm ShadowWolf7707, a spotted Panther from Furfield. I enjoy Cooking, Music, Cosplay. Friends describe me as friendly, curious, adventurous. My curly tail is always wagging when I'm having fun!"
+}

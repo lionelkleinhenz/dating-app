@@ -1,0 +1,23 @@
+{
+  "id": 1,
+  "image": "furrypfp1",
+  "name": "CloudRunner7903",
+  "age": 27,
+  "gender": "non-binary",
+  "pronouns": "they/them",
+  "location": "Furfield",
+  "species": "Dog",
+  "fur_color": "blue",
+  "tail_type": "bushy",
+  "activities": [
+    "Drawing",
+    "Dancing",
+    "Hiking"
+  ],
+  "personality_traits": [
+    "playful",
+    "adventurous",
+    "energetic"
+  ],
+  "bio": "Hi! I'm CloudRunner7903, a blue Dog from Furfield. I enjoy Drawing, Dancing, Hiking. Friends describe me as playful, adventurous, energetic. My bushy tail is always wagging when I'm having fun!"
+}
