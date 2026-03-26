@@ -1,0 +1,23 @@
+{
+  "id": 1,
+  "img": "/raw/imgs/pfp_1.png",
+  "name": "StarPaw9400",
+  "age": 26,
+  "gender": "male",
+  "pronouns": "he/him",
+  "location": "Furfield",
+  "species": "Dog",
+  "fur_color": "rainbow",
+  "tail_type": "thin",
+  "activities": [
+    "Dancing",
+    "Hiking",
+    "Gaming"
+  ],
+  "personality_traits": [
+    "curious",
+    "friendly",
+    "playful"
+  ],
+  "bio": "Hi! I'm StarPaw9400, a rainbow Dog from Furfield. I enjoy Dancing, Hiking, Gaming. Friends describe me as curious, friendly, playful. My thin tail is always wagging when I'm having fun!"
+}
