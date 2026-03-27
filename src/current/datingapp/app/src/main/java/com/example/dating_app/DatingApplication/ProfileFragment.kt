@@ -109,6 +109,7 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
         instance = pyClass.call()
         instance.callAttr("ensure_loaded")
 
+
         // gets the profile from the json
         profile = arguments?.getString(ARG_PROFILE)
             ?.let { DatingProfile.fromJson(JSONObject(it)) }
