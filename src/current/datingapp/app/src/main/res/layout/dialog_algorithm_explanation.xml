@@ -74,7 +74,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
-                android:text="Explanation for how dating algorithms works: bla bla bla bla lbal ballb al"
+                android:text="@string/explanation_algorithms"
                 android:textSize="13sp"
                 android:textColor="@color/text_secondary"
                 android:gravity="center"
