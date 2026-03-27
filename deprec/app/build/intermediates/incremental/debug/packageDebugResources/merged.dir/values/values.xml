@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white1">#71c174</color>
+    <color name="white2">#e44e44</color>
+    <dimen name="fab_margin">16dp</dimen>
+    <string name="action_settings">Extra Informationen</string>
+    <string name="action_settingsb">Ideales Profil</string>
+    <string name="app_name">DatingApp</string>
+    <string name="first_fragment_label">Dating App</string>
+    <string name="lorem_ipsum">
+        Hier sind dann die Profile zu sehen
+    </string>
+    <string name="lorem_ipsumb">
+        Hier der text zur erklärung des algorithmus.
+    </string>
+    <string name="lorem_ipsumc">
+        text für das perfekte profil</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="second_fragment_label">Erklärung Algorithmus</string>
+    <string name="second_second_fragment_label">Ideales Profil</string>
+    <style name="Base.Theme.DatingApp" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.DatingApp" parent="Base.Theme.DatingApp"/>
+</resources>
