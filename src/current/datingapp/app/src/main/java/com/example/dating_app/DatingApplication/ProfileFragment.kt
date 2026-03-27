@@ -90,7 +90,7 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
     private lateinit var pyClass: PyObject
     private lateinit var instance: PyObject
 
-    private var currentIndex = 0
+    private var currentIndex = 1 // ik it's not ideal but it improves code readability
 
     private var rating = 0
 
@@ -98,11 +98,10 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-
+        // initialization of the python integration
         if (!Python.isStarted()) {
             Python.start(AndroidPlatform(requireContext()))
         }
-
         val py = Python.getInstance()
         module = py.getModule("algorithm_script")
         module.callAttr("set_folder_path", "${requireContext().filesDir.absolutePath}/raw" )
@@ -110,68 +109,71 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
         instance = pyClass.call()
         instance.callAttr("ensure_loaded")
 
-
+        // gets the profile from the json
         profile = arguments?.getString(ARG_PROFILE)
             ?.let { DatingProfile.fromJson(JSONObject(it)) }
             ?: return  // safety exit if somehow null
 
-        Log.d("PROFILE", "onViewCreated called, profile=${profile.name}")
+
 
         val overlay = view.findViewById<SwipeOverlayView>(R.id.swipeOverlay)
 
-        // The overlay handles all gesture detection — just give it a listener
+        // The overlay handles all gesture detection
         overlay.listener = object : SwipeListener {
             override fun onLiked() {
                 val result = instance.callAttr("like")  // like() should return the result directly
-                Log.d("PYTHON", result.toList().toString())
+                // Log.d("PYTHON", result.toList().toString())
                 handleSwipeResult(result, view)
             }
             override fun onDisliked() {
                 val result = instance.callAttr("dislike")  // same
-                Log.d("PYTHON", result.toList().toString())
+                // Log.d("PYTHON", result.toList().toString())
                 handleSwipeResult(result, view)
             }
         }
 
+
+        // the two action buttons that replace the swipe functionalities
         view.findViewById<View>(R.id.btn_like).setOnClickListener {
-            Log.d("PYTHON", "like clicked")
-            val result = instance.callAttr("like")
-            Log.d("PYTHON", "result null: ${result == null}")
-            if (result == null) return@setOnClickListener
+            // Log.d("PYTHON", "like clicked")
+            val result = instance.callAttr("like") ?: return@setOnClickListener
+            // Log.d("PYTHON", "result null: ${result == null}")
             handleSwipeResult(result, view)
         }
-
         view.findViewById<View>(R.id.btn_pass).setOnClickListener {
-            Log.d("PYTHON", "dislike clicked")
-            val result = instance.callAttr("dislike")
-            Log.d("PYTHON", "result null: ${result == null}")
-            if (result == null) return@setOnClickListener
+            // Log.d("PYTHON", "dislike clicked")
+            val result = instance.callAttr("dislike") ?: return@setOnClickListener
+            // Log.d("PYTHON", "result null: ${result == null}")
             handleSwipeResult(result, view)
         }
 
-        // Load initial profile
+        // load the initial profile
         bindProfile(view)
         animateEntrance(view)
     }
 
     private fun handleSwipeResult(result: PyObject?, view: View) {
-        if (currentIndex == 50) {
+        // first checks if it needs to display any of the dialog boxes
+        if (currentIndex == 5) {
+            showAlgorithmExplanationDialog()
+        } else if (currentIndex == 50) {
             val ideal = instance.callAttr("get_ideal")
             showIdealProfileDialog(ideal, view)
         }
+
         if (result == null) return
 
         try {
             val list = result.asList()
             if (list.size < 2) return
-
+            // parses the values returned by the python function
             rating = list[0].toDouble().toInt()
-            val userId = list[1].toString()  // it's a string ID, not an int index
+            val userId = list[1].toString()
 
+            // change to a new profile
             val newProfile = MainActivity.loadProfileFromJson(requireContext(), userId.toInt())
             profile = newProfile
             currentIndex++
-            Log.d("INDEX", currentIndex.toString())
             bindProfile(view)
             animateEntrance(view)
         } catch (e: Exception) {
@@ -186,39 +188,38 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
 //    }
 
     private fun bindProfile(view: View) {
-        // ── Hero image ────────────────────────────────────────────────────────
-
+        // ── furry image ────────────────────────────────────────────────────────
         val heroImage = view.findViewById<ImageView>(R.id.iv_hero)
         val resId = resources.getIdentifier(profile.image, "drawable", requireContext().packageName)
-        Log.d("IMAGE", resId.toString())
+        // Log.d("IMAGE", resId.toString())
         if (resId != 0) {
             heroImage.setImageResource(resId)
         } else {
             heroImage.setImageResource(R.drawable.placeholder_profile)
         }
 
-        // ── Compatibility badge ───────────────────────────────────────────────
+        // ── matching score ───────────────────────────────────────────────
         view.findViewById<TextView>(R.id.tv_compatibility).text =
             "${rating}% Match"
 
-        // ── Name / age / verified ────────────────────────────────────────────
+        // ── name / age / verified ────────────────────────────────────────────
         view.findViewById<TextView>(R.id.tv_name_age).text =
             "${profile.name}, ${profile.age}"
         view.findViewById<View>(R.id.iv_verified).visibility = View.VISIBLE
 
-        // ── Species & location ────────────────────────────────────────────
+        // ── species & location ────────────────────────────────────────────
         view.findViewById<TextView>(R.id.tv_species).text = profile.species
         view.findViewById<TextView>(R.id.tv_location).text =
             "${profile.location}"
 
-        // ── Last active ──────────────────────────────────────────────────────
+        // ── last active ──────────────────────────────────────────────────────
         view.findViewById<TextView>(R.id.tv_last_active).text =
             "Active right now"
 
-        // ── Bio ──────────────────────────────────────────────────────────────
+        // ── about me ──────────────────────────────────────────────────────────────
         view.findViewById<TextView>(R.id.tv_bio).text = profile.bio
 
-        // ── Quick-fact pills ─────────────────────────────────────────────────
+        // ── quick-facts ─────────────────────────────────────────────────
         val factsContainer = view.findViewById<FlexboxLayout>(R.id.ll_quick_facts)
         factsContainer.removeAllViews()
         val facts = listOf(
@@ -231,33 +232,26 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
             addFactCard(factsContainer, icon, label)
         }
 
-        // ── Interests chips ──────────────────────────────────────────────────
+        // ── activities ──────────────────────────────────────────────────
         val activitiesGroup = view.findViewById<ChipGroup>(R.id.chip_group_activities)
         activitiesGroup.removeAllViews()
         profile.activities.forEach { activity ->
             activitiesGroup.addView(makeChip(activity, ChipStyle.FILLED))
         }
 
-        // ── Personality chips ────────────────────────────────────────────────
+        // ── personality traits ────────────────────────────────────────────────
         val personalityGroup = view.findViewById<ChipGroup>(R.id.chip_group_personality)
         personalityGroup.removeAllViews()
         profile.personalityTraits.forEach { trait ->
             personalityGroup.addView(makeChip(trait, ChipStyle.OUTLINED))
         }
 
-//        // ── Action buttons ────────────────────────────────────────────────────
-//        view.findViewById<View>(R.id.btn_pass).setOnClickListener {
-//            val result = instance.callAttr("dislike")
-//            handleSwipeResult(result, view)
-//        }
-//        view.findViewById<View>(R.id.btn_like).setOnClickListener {
-//            val result = instance.callAttr("like")
-//            handleSwipeResult(result, view)
-//        }
     }
 
     // ── Helpers ───────────────────────────────────────────────────────────────
 
+
+    // small facts in the quick fact section
     private fun addFactCard(container: FlexboxLayout, icon: String, label: String) {
         val ctx = container.context
         val card = CardView(ctx).apply {
@@ -296,6 +290,7 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
 
     private enum class ChipStyle { FILLED, OUTLINED, HEART }
 
+    // small chips in the activities and personality section
     private fun makeChip(text: String, style: ChipStyle): Chip {
         val ctx = requireContext()
         return Chip(ctx).apply {
@@ -322,16 +317,18 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
         }
     }
 
-    private fun loadDrawableByName(name: String): Bitmap? {
-        return try {
-            val resId = resources.getIdentifier(name, "drawable", requireContext().packageName)
-            if (resId != 0) BitmapFactory.decodeResource(resources, resId) else null
-        } catch (e: Exception) { null }
-    }
+//    private fun loadDrawableByName(name: String): Bitmap? {
+//        return try {
+//            val resId = resources.getIdentifier(name, "drawable", requireContext().packageName)
+//            if (resId != 0) BitmapFactory.decodeResource(resources, resId) else null
+//        } catch (e: Exception) { null }
+//    }
 
     private fun dpToPx(dp: Int): Int =
         (dp * resources.displayMetrics.density).toInt()
 
+
+    // animation before displaying the new profile
     private fun animateEntrance(view: View) {
         val targets = listOf<View>(
             view.findViewById(R.id.card_hero),
@@ -378,6 +375,19 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
             ideal.callAttr("get", "activities").toString()
         dialog.findViewById<TextView>(R.id.tv_ideal_trait).text =
             ideal.callAttr("get", "personality_traits").toString()
+
+        dialog.findViewById<View>(R.id.btn_continue).setOnClickListener {
+            dialog.dismiss()
+        }
+
+        dialog.show()
+    }
+
+    private fun showAlgorithmExplanationDialog() {
+
+        val ctx = requireContext()
+        val dialog = android.app.Dialog(ctx, android.R.style.Theme_Black_NoTitleBar_Fullscreen)
+        dialog.setContentView(R.layout.dialog_algorithm_explanation)
 
         dialog.findViewById<View>(R.id.btn_continue).setOnClickListener {
             dialog.dismiss()

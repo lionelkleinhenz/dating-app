@@ -24,8 +24,8 @@
             <!-- Hero image -->
             <ImageView
                 android:id="@+id/iv_ideal_hero"
-                android:layout_width="120dp"
-                android:layout_height="120dp"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
                 android:layout_gravity="center_horizontal"
                 android:scaleType="centerCrop"
                 android:src="@drawable/alex_der_cutie"
