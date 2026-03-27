@@ -3,24 +3,17 @@ from collections import Counter
 import os
 import json
 
-###### 
-###### 
-###### ACHTUNG!!!!!!!!!!!!!!!
+
 FOLDER_PATH = os.path.expanduser(r"~\dating-app\src\current\datingapp\app\src\main\res\raw")
-###### ACHTUNG!!!!!!!!!!!!!!!
-###### 
-######
 
 
-# Mein lielber Lionel,
-# vielen Dank für deinen liebenswerten wunsch, dass ich Kommentare ein bauen muss. Extra für dich hab ich nochmal in random zeilen rein schreiben müssen was die machen, auch wenn du scheiß opfer eh versehst was sie machen. Tu nicht so als ob du so blöd bist und das nicht checkst. Du drecks nutten.
-# Mit Freundlichen Grüßen
-# Dein Jakob der wirklich überhaupt nicht generft ist kommentare ein bauen zu müssen
+
+
 def get_rating(score):
     return score / 20
 
 
-# lionel hier werden user geladen! Cool oder richtig was besonderes.......drecks arschlochhhhhhhh
+
 def load_users():
     users = []
 
@@ -55,7 +48,7 @@ def load_users():
     return users
 
 
-#perfext match average was auch immer wei lionel eine kleine nutte ist und mir extra arbeit machen will ich fick dich weg du nazi
+
 def build_ideal_profile(liked_users):
     if not liked_users:
         return None
@@ -69,7 +62,7 @@ def build_ideal_profile(liked_users):
 
     for key in keys:
         values = [u[key] for u in liked_users]
-        ideal[key] = most_common(values) # du weißt gar nicht wie gerne ich dich anschreien würde dafür das du DAFÜR EINE LIBRARY IMPORTIERT HAST, ES SIND LEGIT 2 MINUTEN SELBST SCHREIBEN UND WARUM SOLLTE MAN UNNÖTIGER WEISE 30.000 LIBRARIES IMPORTIEREN (jakob ich glaube die kommentare treffen auf dich viel besser zu)
+        ideal[key] = most_common(values) 
 
     activities = []
     traits = []
@@ -87,7 +80,7 @@ def build_ideal_profile(liked_users):
     return ideal
 
 
-# JAKOB ES KANN NICHT SO SCHWER SEIN DIESE FUNCTION ZU SCHREIBEN ODER SIE ZU PROMPTEN ES IST SO EIN PAIN MIT COLLECTIONS ZU ARBEITEN MIT CHAQUOPY
+
 def most_common(values):
     counts = {}
     for v in values:
@@ -102,14 +95,14 @@ def most_common(values):
 
 
 
-#SCORE 1v1 epic fight IDEALPROFIL weil du immernoch ein fuck ASS NUTTEN BIST IMMER EXTTRA ARVBEIT KANN LEGIT NICHT SEIN DU NUTTE
+
 def score_with_ideal(user, ideal):
     score = 0
 
     if user["gender"] == ideal["gender"]:
         score += 5
 
-    if user["age"] == ideal["age"]: # blud will mir erklären dass menschen so fixiert auf ein alter sind, ja ja jakob bestimmt kein sloppy code
+    if user["age"] == ideal["age"]: 
         score += 3.5
 
     if user["species"] == ideal["species"]:
@@ -136,7 +129,7 @@ def score_with_ideal(user, ideal):
     return score
 
 
-# lionel das ist die zupa dupa tolle  app oder so lel
+
 class DatingApp:
     def __init__(self):
 
@@ -144,14 +137,14 @@ class DatingApp:
 
         self.index = 0
         self.liked = []
-        self.seen = []                                                                  #gesehene profile damit kein doppelt typ sii
+        self.seen = []                                                                
 
         self.next_user = self.get_next_user()
 
         self.update()
 
 
-    # ächsten user getten
+
     def get_next_user(self):
 
         possible = [
