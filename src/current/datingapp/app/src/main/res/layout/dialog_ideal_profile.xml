@@ -28,7 +28,7 @@
                 android:layout_height="160dp"
                 android:layout_gravity="center_horizontal"
                 android:scaleType="centerCrop"
-                android:src="@drawable/alex_der_cutie"
+                android:src="@drawable/bg_gallery_placeholder"
                 app:cardCornerRadius="60dp"/>
 
             <!-- Header -->

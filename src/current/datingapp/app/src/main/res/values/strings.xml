@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">dating-app</string>
+    <string name="explanation_algorithms">Dating algorithms like those used by Tinder and Hinge
+        promise to match users with suitable partners by using algorithms to analyse profile
+        information, interests, location and behaviour. Features such as Hinge’s ‘Most Compatible’
+        use machine learning, whilst Tinder takes into account activity, likes and interactions.
+
+However, the apps often collect more data than users actively provide, such as swipe and like
+        patterns, messaging behaviour, usage times or location information. Algorithms draw
+        conclusions about interests and preferences from this data, even if these were never
+        explicitly stated. Our algorithm operates entirely without the need for any voluntary
+        input of personal data
+
+At the same time, the platforms pursue commercial objectives: algorithms are designed to keep users
+        active for as long as possible in order to promote subscriptions and additional features.
+    </string>
 </resources>
