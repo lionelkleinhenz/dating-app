@@ -196,7 +196,7 @@ class DatingApp:
         user = self.next_user
 
         if not self.liked:
-            rating = "Unknown"
+            rating = 0
         else:
             ideal = build_ideal_profile(self.liked)
             score = score_with_ideal(user, ideal)
@@ -255,6 +255,7 @@ class DatingApp:
 
     #     names = "\n".join([u["name"] for u in self.liked])
     #     messagebox.showinfo("Likes", names)
+
 
 
 def set_folder_path(path):
